@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Sign up · B. B. Academy</title><link rel="stylesheet" href="style.css"></head>
+<body data-page="signup"><header id="hdr"></header>
+<main><form id="f" class="card narrow" autocomplete="off"><h2>Create an account</h2>
+<label>Full name</label><input id="nm" required>
+<label>Username</label><input id="un" required>
+<label>I am a</label><select id="rl"><option value="student">Student</option><option value="teacher">Teacher</option><option value="admin">Admin</option></select>
+<div id="sw"><label>Student ID number</label><input id="sid" placeholder="e.g. STU-2026-4821"></div>
+<div id="cw" class="hide"><label>Access code</label><div class="pw"><input id="cd" type="password" placeholder="Given by the school"><button type="button" class="eye" aria-label="Show or hide access code"></button></div></div>
+<label>Password (at least 6 characters)</label><div class="pw"><input id="pw" type="password" required><button type="button" class="eye" aria-label="Show or hide password"></button></div>
+<label>Confirm password</label><div class="pw"><input id="pw2" type="password" required><button type="button" class="eye" aria-label="Show or hide password"></button></div>
+<br><button>Create account</button><div class="msg" id="m"></div><p class="mut">Already registered? <a href="login.html">Log in</a></p></form></main>
+<script src="script.js"></script></body></html>
